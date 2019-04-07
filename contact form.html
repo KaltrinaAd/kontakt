@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Bookman;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+<h2> Jemi te gatshem t'iu pergjigjemi pytjeve tuaja! </h2>
+
+<h3>Kontakto </h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">Emri juaj</label>
+    <input type="text" id="fname" name="firstname" placeholder="emri..">
+
+    <label for="lname">Email adresa juaj</label>
+    <input type="text" id="lname" name="email adress" placeholder="email adresa..">
+
+    
+
+    <label for="subject">Mesazhi juaj </label>
+    <textarea id="subject" name="Your Message" placeholder="Shkruaj.." style="height:200px"></textarea>
+
+    <input type="submit" value="Dergo">
+  </form>
+</div>
+
+</body>
+</html>
